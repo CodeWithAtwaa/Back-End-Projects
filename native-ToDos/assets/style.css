@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui;
+    margin: 0;
+    padding: 0;
+}
+
+.pending {
+    background-color: #d0e7ff;
+    color: #0056b3;
+}
+
+.completed {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.overdue {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.inprogress {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+
+
+.ssd {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 15px ;
+    text-transform: lowercase;
+}

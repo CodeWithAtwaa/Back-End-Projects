@@ -1,0 +1,57 @@
+/* START GENERAL RULES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* END GENERAL RULES */
+
+/* START NAVBAR  */
+.navbar .navbar-toggler {
+  color: white;
+  font-size: 25px;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+@media (max-width: 992px) {
+    .navbar .nav-item  {
+      margin: 2px;
+      margin-right: 50px;
+    transform: translateX(50px);
+    -webkit-transform: translateX(50px);
+    -moz-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+  .navbar .nav-item:hover {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+}
+/* END NAVBAR */
+
+
+/* START CARD  */
+.card {
+  background-color: #2c3e50;
+  border-radius: 25px;
+  padding: 10px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  color: white;
+}
+.card .card-body h3 {
+  letter-spacing: 1px;
+}
+.card .card-body a{
+  width: 50px;
+}
+/* END CARD  */
