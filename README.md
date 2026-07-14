@@ -160,7 +160,8 @@ A lightweight task management system developed using pure PHP.
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### - Using Docker 
+### - Prerequisites
 
 * PHP 8.x or later
 * Composer
